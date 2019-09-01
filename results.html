@@ -37,7 +37,7 @@
 <!--<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>-->
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
 <hr/>
-<canvas id="banner" width=800 height=650 style="font-family:Montserrat"></canvas>
+<canvas id="banner" width=800 height=450 style="font-family:Montserrat"></canvas>
 <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -130,7 +130,7 @@ stats"></a></div></noscript>
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,350)
+        ctx.fillRect(0,0,800,450)
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
